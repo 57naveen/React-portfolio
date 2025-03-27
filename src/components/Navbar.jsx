@@ -13,11 +13,13 @@ const Navbar = () => {
        {/* <img className='mx-2 w-10' src={logo} alt='logo'/>*/} 
     </div>
 
-    <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+    <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <a href="https://www.linkedin.com/in/naveenkishore-s/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
+      </a>
+      <a href="https://github.com/57naveen" target="_blank" rel="noopener noreferrer">
         <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+      </a>
     </div>
    </nav>
   )

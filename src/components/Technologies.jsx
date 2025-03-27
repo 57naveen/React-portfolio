@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiMongodb } from 'react-icons/si'
+import { SiDjango, SiExpress, SiJavascript, SiMongodb, SiRedux } from 'react-icons/si'
 import { DiRedis } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 
@@ -49,7 +49,21 @@ const Technologies = () => {
              initial="initial"
              animate="animate"
              className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <TbBrandNextjs className='text-7xl '/>
+                <SiDjango className='text-7xl '/>
+            </motion.div>
+            <motion.div
+             variants={iconVariants(1)}
+             initial="initial"
+             animate="animate"
+             className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiJavascript  className='text-7xl text-yellow-400 '/>
+            </motion.div>
+            <motion.div
+             variants={iconVariants(1)}
+             initial="initial"
+             animate="animate"
+             className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiRedux  className='text-7xl text-purple-600 '/>
             </motion.div>
             <motion.div 
              variants={iconVariants(5)}
@@ -63,7 +77,7 @@ const Technologies = () => {
              initial="initial"
              animate="animate"
              className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <DiRedis className='text-7xl text-red-700'/>
+                <SiExpress className='text-7xl text-white-700'/>
             </motion.div>
             <motion.div 
              variants={iconVariants(4)}
